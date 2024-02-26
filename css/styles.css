@@ -1,0 +1,150 @@
+.fondo{
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: rgb(151, 104, 104);
+    position: relative;
+    z-index: 1; 
+    width: 1300px;
+    height: 900px;
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+      background: url(../img/animacion.gif);
+    
+    }
+    100% {
+        background: url(../img/gif2.gif);
+        background-size: cover;
+        background-position: center;
+    }
+    100% {
+        background-color: #ad6565;
+      }
+  }
+  
+#cara{
+    top: 350px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 0 auto;
+    transition: 1s;
+}
+#cara:hover{
+
+    transform: scale(1.3);
+}
+#sombrero{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 270px;
+    z-index: 1;
+    transition: 1S;
+}
+#sombrero:hover{
+  transform: rotate(360deg);
+}
+#orejasIzquierda{
+    position: absolute;
+    margin: 0 auto;
+    z-index: -1;
+    top: 390px;
+    left: 460px;
+    transition: 1s;
+}
+#orejasIzquierda:hover{
+    transform: scale(1.8);
+   
+}
+#orejasDerecho{
+    position: absolute;
+    margin: 0 auto;
+    z-index: -1;
+    top: 390px;
+    right: 460px;
+    transition: 1s;
+}
+#orejasDerecho:hover{
+    transform: scale(1.8);
+   
+}
+#ojoIzquierdo{
+    position: absolute;
+    margin: 0 auto;
+    z-index: 1;
+    top: 400px;
+    left: 560px;
+    transition: 1s;
+}
+#ojoIzquierdo:hover{
+    
+    transform: scale(1.8);
+ 
+}
+#ojoDerecho{
+    position: absolute;
+    margin: 0 auto;
+    z-index: 1;
+    top: 400px;
+    right: 560px;
+}
+#ojoDerecho:hover{
+    
+    transform: scale(1.8);
+ 
+}
+#nariz{
+    position: absolute;
+    margin: 0 auto;
+    z-index: 1;
+    right: 0px;
+    left: 0px;
+    top: 455px;
+    transition: 1s;
+}
+#nariz:hover{
+    top: 400px;
+    bottom: 20px;
+   
+}
+#bigote{
+    position: absolute;
+    margin: 0 auto;
+    right: 0px;
+    left: 0px;
+    top: 589px;
+    transition: 1s;
+}
+
+#bigote:hover{
+  transform: rotate(360deg);
+}
+#zapatosIzquierdo{
+    position: absolute;
+    margin: 0 auto;
+    z-index: -1;
+    right: 0px;
+    left: 155px;
+    top: 700px;
+}
+#zapatosIzquierdo:hover{
+    left: 200px;
+    bottom: 30px;
+}
+#zapatosDerecho{
+    position: absolute;
+    margin: 0 auto;
+    z-index: -1;
+    right: 155px;
+    left: 0px;
+    top: 700px;
+}
+#zapatosDerecho:hover{
+    right: 200px;
+    bottom: 30px;
+}
